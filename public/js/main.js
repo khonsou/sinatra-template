@@ -7,11 +7,11 @@ String.prototype.htmlEscape = function(){
 };
 
 $(function(){
-    $('input#start_btn').click(omikuji_start);
+    $('input#start_btn').click(jquery_submit_start);
 });
 
-var omikuji_start = function(){
-    $.getJSON(omikuji_api, function(res){
+var jquery_submit_start = function(){
+    $.getJSON(sinatra_api_get_array_sample, function(res){
         var li = $('<li>').append(res.result.htmlEscape() + ' - ' + res.time.htmlEscape());
         $('ul#results').prepend(li);
     });
