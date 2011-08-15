@@ -19,6 +19,10 @@ Install Dependencies
 
     % gem install sinatra thin sinatra-reloader json haml bundler
 
+    for windows user, thin can not work very well. skip thin. sinatra will user WEBrick come from ruby.
+    % gem install sinatra sinatra-reloader json haml bundler
+
+
 
 or
 
