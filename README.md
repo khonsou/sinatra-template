@@ -38,6 +38,8 @@ Run
 
 open [http://localhost:8080](http://localhost:8080)
 
+for WEBrick is
+[http://localhost:4567](http://localhost:4567)
 
 Deploy
 ------
