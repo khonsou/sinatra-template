@@ -8,8 +8,10 @@ require File.dirname(__FILE__)+'/main'
 set :environemt, :production
 
 get '/' do
+
   @title = @@conf['title']
   haml :index
+
 end
 
 get '/omikuji.json' do
