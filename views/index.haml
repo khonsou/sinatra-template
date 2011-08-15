@@ -12,7 +12,7 @@
     %div#content
       %div#head
         %h1= @title
-        %h2 Ajax Omikuji
+        %h2 Sinatra , jQuery and haml
         %input{:id => 'start_btn', :type => 'button', :value => 'start'}
         %div
           result
@@ -21,4 +21,7 @@
         %div
           source code : 
           - src_url = 'https://github.com/shokai/sinatra-template'
+          %a{:href => src_url} #{src_url}
+          and here (for ruby 1.9.x and can work on windows): 
+          - src_url = 'https://github.com/newkhonsou/sinatra-template'
           %a{:href => src_url} #{src_url}
