@@ -12,7 +12,6 @@ $(function(){
 
 var omikuji_start = function(){
     $.getJSON(omikuji_api, function(res){
-        console.log(res);
         var li = $('<li>').append(res.result.htmlEscape() + ' - ' + res.time.htmlEscape());
         $('ul#results').prepend(li);
     });
