@@ -14,7 +14,7 @@ get '/' do
 
 end
 
-get '/omikuji.json' do
+get '/sinatra_api_get_array_sample.json' do
 
   content_type = 'application/json'
 
