@@ -1,4 +1,6 @@
-update this for ruby 1.9.x
+update this to ruby 1.9.x
+
+now can work for windows user.
 
 Sinatra Template (Omikuji)
 ==========================
