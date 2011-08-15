@@ -7,10 +7,10 @@ String.prototype.htmlEscape = function(){
 };
 
 $(function(){
-    $('input#start_btn').click(jquery_submit_start);
+    $('input#start_btn').click(jquery_submit_for_start_button);
 });
 
-var jquery_submit_start = function(){
+var jquery_submit_for_start_button = function(){
     $.getJSON(sinatra_api_get_array_sample, function(res){
         var li = $('<li>').append(res.result.htmlEscape() + ' - ' + res.time.htmlEscape());
         $('ul#results').prepend(li);
