@@ -1,3 +1,5 @@
+update this for ruby 1.9.x
+
 Sinatra Template (Omikuji)
 ==========================
 Sinatra+Haml+jQuery App Template.
